@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #b5c4e4;
+  border-radius: 45px;
+}
+
+.py-rem {
+  background-color: #5b8fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 1rem;
+  border-radius: 22px;
+}
+
+h1,
+p,
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.info {
+  max-width: 640px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.info p {
+  padding-top: 0;
+}
+
+.info .name {
+  padding-top: 1rem;
+}
+
+.contacts {
+  max-width: 640px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.about-me {
+  max-width: 640px;
+  text-align: left;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(126, 121, 121);
+  padding-left: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
