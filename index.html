@@ -3,46 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Резюме</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-
   <body>
-    <main class="py-rem">
-      <div class="container">
-        <h1>Мое резюме</h1>
-        <img src="./images/my.jpg" alt="polina" />
-        <div class="info">
-          <p class="name">Полина Журавлева</p>
-          <p>Beginer Front-end Developer</p>
-        </div>
-        <div class="contacts">
-          <p>Контакты:</p>
-          <ul>
-            <li>
-              <b>Телефон:</b><a href="tel:+380959024841">+380959024841</a>
-            </li>
-            <li>
-              <b>Пошта:</b
-              ><a href="mailto:polina.q6w@gmail.com">polina.q6w@gmail.com</a>
-            </li>
-            <li>
-              <b>TikTok:</b
-              ><a
-                href="https://www.tiktok.com/@4wwqv?is_from_webapp=1&sender_device=pc"
-                >4wwqv</a
-              >
-            </li>
-            <li><b>Telegram:</b><a href="https://t.me/v9wppl">v9wppl</a></li>
-          </ul>
-        </div>
-        <div class="about-me">
-          <p><b>Про меня:</b></p>
-          <p>Заканчиваю 11 класс:) через 3 месяца буду сдавать НМТ</p>
-          <p><b>Образование:</b></p>
-          <p>Беляевский лицей №1</p>
-        </div>
-      </div>
-    </main>
+    <!--    
+        Ничего НИЖЕ в разметке менять нельзя (можно только подключить стили на страницу)
+    1. Только <span> перед закрывающим тегом </body> должен быть красного цвета
+    2. Только "Text 8" - зеленого цвета
+    3. У ссылок только в первом списке нет подчеркивания (во втором списке есть)
+    4. "<h3>List</h3>" - синий фон
+     -->
+    <h3>List</h3>
+    <div>
+      <ul>
+        <li>
+          <h3>Heading</h3>
+          <a href="#">
+            <span>Text 1</span><br />
+            Subtext 1
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 2</span><br />
+            Subtext 2
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 3</span><br />
+            Subtext 3
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 4</span><br />
+            Subtext 4
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a href="#">
+            <span>Text 5</span><br />
+            Subtext 5
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 6</span><br />
+            Subtext 6
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 7</span><br />
+            Subtext 7
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>Text 8</span><br />
+            Subtext 8
+          </a>
+        </li>
+      </ul>
+    </div>
+    <span>2018 &copy; Only this span should be red!</span>
   </body>
 </html>
