@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-first {
+  display: block;
+  width: 400px;
+  margin: 40px auto;
+  background-color: #1c074e;
+  border-radius: 11px;
+}
+
+.line {
+  background-color: orange;
+  border-radius: 22px;
+}
+
+.left-column {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  color: orange;
+  padding-right: 12px;
+}
+
+.left-column p {
+  padding-top: 32px;
+}
+
+.right-column {
+  color: orange;
+  display: inline-block;
+  width: 49%;
+  padding-left: 8px;
+}
+
+.right-column div {
+  padding-top: 13px;
+}
+
+.left-column,
+.right-column {
+  padding-top: 5px;
+}
+
+input,
+select {
+  padding: 7px;
+  border-radius: 9px;
+  border: none;
+}
+
+input::placeholder {
+  color: rgb(173, 221, 114);
+}
+
+.date {
+  margin-top: 16px;
+}
+
+.gender {
+  padding-bottom: 7px;
+}
+
+.bottom {
+    text-align: right;
+    padding: 5px; 
+}
+.bottom button {
+    padding: 6px;
+    border-radius: 16px;
+    border: none;
+}

@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hillel</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="form-first">
+      <div class="line">Sign Up</div>
+      <div>
+        <div class="left-column">
+          <p>First name</p>
+          <p>Last Name</p>
+          <p>Screen Name</p>
+          <p>Date of Birth</p>
+          <div class="one">
+            <p>Gender</p>
+            <p>Country</p>
+            <p>E-mail</p>
+            <p>Phone</p>
+            <p>Password</p>
+          </div>
+          <p>Confirm Password</p>
+        </div>
+        <div class="right-column">
+          <div>
+            <input
+              type="text"
+              name="first name"
+              placeholder="Enter First Name"
+            />
+          </div>
+          <div>
+            <input type="text" name="last name" placeholder="Enter Last Name" />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="Screen name"
+              placeholder="Enter Screen Name"
+            />
+          </div>
+
+          <div>
+            <select class="date" name="date of birth">
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="july">July</option>
+            </select>
+            <select name="number">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <select name="year">
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+            </select>
+          </div>
+          <div class="two">
+            <div class="gender">
+              <label> <input type="radio" name="male" /> Male </label>
+              <label> <input type="radio" name="male" /> Female </label>
+            </div>
+            <div>
+              <select name="country">
+                <option value="usa">USA</option>
+                <option value="Ukraine">Ukraine</option>
+              </select>
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Enter E-mail..." />
+            </div>
+            <div>
+              <input type="tel" name="tel" placeholder="Enter Phone..." />
+            </div>
+            <div>
+              <input type="password" name="password" />
+            </div>
+            <div>
+              <input type="password" name="confirm password" />
+            </div>
+          </div>
+          <label>
+            <input class="agree" type="checkbox" name="agree" /> I agree to the
+            Terms of Use
+          </label>
+        </div>
+      </div>
+      <div class="line bottom">
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+      </div>
+    </div>
+  </body>
 </html>
