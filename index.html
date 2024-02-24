@@ -1,29 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>template</title>
-    <link rel="stylesheet" href="./fonts/font.css">
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header class="py-rem">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>template</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li>
+            <a class="logo" href="./index.html"><span class="accent">Wisdom</span>Page</a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="bg1">
       <div class="container">
-        <nav>
-          <a href="./index.html">Home</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="py-rem first-section">
-        <div class="container">
-          <h1>main title.</h1>
-          <hr class="my-rem">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id porro voluptas voluptates. Ullam inventore corporis quaerat nulla, reprehenderit ipsam perferendis eligendi non autem id quidem perspiciatis maiores voluptatibus cum voluptatem.</p>
+        <div class="mainHead">
+          <h1>Knowledge has a begining but no end</h1>
         </div>
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+      </div>
+    </section>
+    <section class="bg2">
+      <div class="container">
+        <div class="pad">
+          <h2 class="title-about">About</h2>
+          <div class="separarte">
+            <div class="part1">
+              <h3>Content subtitle</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <img class="part2" src="./images/sec2.jpg" alt="sec2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="container">
+        <h2 class="title-about">Features</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="./images/1.jpg" alt="f1" />
+            <h3>Card title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur ullamcorper velit tortor, in accumsan libero mollis
+              eu. Sed vel eros et dolor...
+            </p>
+            <a href="#">Read more &gt;</a>
+          </div>
+          <div class="card">
+            <img src="./images/2.jpg" alt="f1" />
+            <h3>Card title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur ullamcorper velit tortor, in accumsan libero mollis
+              eu. Sed vel eros et dolor...
+            </p>
+            <a href="#">Read more &gt;</a>
+          </div>
+          <div class="card">
+            <img src="./images/3.jpg" alt="f1" />
+            <h3>Card title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur ullamcorper velit tortor, in accumsan libero mollis
+              eu. Sed vel eros et dolor...
+            </p>
+            <a href="#">Read more &gt;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy;2021 <span>Wisdom page</span></p>
+      <div class="social">
+        <a href="#"> 
+          <img src="./images/twitter.png" alt="twitter" />
+        </a>
+        <a href="#"> 
+          <img src="./images/instagram.png" alt="inst" />
+        </a>
+        <a href="#">
+          <img class="last" src="./images/linked-in.svg" alt="linkenin" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
