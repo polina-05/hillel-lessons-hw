@@ -13,20 +13,20 @@ html {
 }
 
 .container {
-  background-color: rgb(187, 177, 177);
+  background-color: rgb(231, 214, 214);
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
 }
 
 .py-rem {
-  background-color: #9074c5;
+  background-color: #179d9d;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 .my-rem {
-  background-color: #71caab;
+  background-color: #116649;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -65,7 +65,7 @@ a {
   text-transform: uppercase;
 }
 
-h1 + p {
+.h1 {
   text-align: center;
   font-size: 19px;
 }
@@ -76,16 +76,9 @@ input {
   border: none;
 }
 
-label {
+label,
+p {
   margin-right: 12px;
-}
-
-form div {
-  margin-bottom: 14px;
-}
-
-form div:last-child {
-  margin-bottom: 0;
 }
 
 .autor {
@@ -95,4 +88,35 @@ form div:last-child {
 
 .otstyp {
   margin: 0 24px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #857777;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 13px;
+  color: #fff;
+  text-decoration: underline;
+  padding: 11px;
+}
+
+.from,
+.to {
+  padding: 6px;
+  border-radius: 13px;
+}
+
+.year > p {
+  margin-bottom: 11px;
+}
+
+.year {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 6px;
+  color: #116649;
 }

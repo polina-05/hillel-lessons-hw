@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template</title>
+    <link rel="stylesheet" href="./css/autor.css" />
+</head>
+
+<body>
+    <header class="py-rem">
+        <div class="otstyp">
+            <div class="container">
+                <nav>
+                    <ul class="header-nav">
+                        <li><a href="#"> auto.ria</a></li>
+                        <li><a href="#">Автомобили</a></li>
+                        <li><a href="#">Автозапчасти</a></li>
+                        <li><a href="#">Недвижимость</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="py-rem first-section">
+            <div class="otstyp">
+                <div class="container">
+                    <p class="h1">Пошук</p>
+                    <hr class="my-rem" />
+                    <form action="#" method="get">
+                        <div>
+                            <label for="typekuzova">Тип кузова</label>
+                            <select name="typekuzova" id="typekuzova">
+                                <option selected disabled value="all">
+                                    все типы транспорта
+                                </option>
+                                <option value="fly">легковые</option>
+                                <option value="gruz">грузовики</option>
+                                <option value="bus">автобусы</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Марка авто</p>
+                            <div>
+                                <input type="radio" name="modelauto" id="model" value="volvo" />
+                                <label for="model">Volvo</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="modelauto" id="model2" value="lexus" />
+                                <label for="model2">Lexus</label>
+                            </div>
+                        </div>
+                        <div class="year">
+                            <p>Рік випуску</p>
+                            <select class="from" name="yearFrom" id="year">
+                                <option selected disabled value="from">Год, от</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1995">1995</option>
+                            </select>
+                            <select class="to" name="yearTo" id="year2">
+                                <option selected disabled value="from">Год, до</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1995">1995</option>
+                            </select>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="credit" /> У кредиті
+                            </label>
+                            <label>
+                                <input type="checkbox" name="norozmita" /> Нерозмитнена</label>
+                            <label> <input type="checkbox" name="bita" value="yes" /> Бита</label>
+                            <label>
+                                <input type="checkbox" name="withoput" /> Без покрытия</label>
+                        </div>
+                        <button type="submit">SEnd</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
