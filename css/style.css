@@ -8,7 +8,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5 ;
+  line-height: 1.5;
 }
 
 .hidden {
@@ -43,4 +43,74 @@ img {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.one,
+.two,
+.three {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.one {
+  background-color: rgb(255, 95, 95);
+  transform: scale(0.9);
+}
+
+.three {
+  background-color: #76af21;
+  /* transform: rotate(77deg); */
+  /* transform: skew(218deg, 338deg); */
+  transition-duration: 1.2s;
+  transition-delay: 1s;
+  transition-property: transform;
+}
+
+.three:hover {
+  background-color: #615a5a;
+}
+
+.all {
+  margin: 0 auto;
+  border: 1px solid;
+}
+.two {
+  background-color: #ff34b1;
+  animation-name: myId;
+  animation-duration: 8s;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  animation-iteration-count: infinite;
+  /* animation-direction: reverse; */
+}
+
+@keyframes myId {
+  0% {
+    width: 50px;
+    height: 50px;
+  }
+  10% {
+    width: 10px;
+    height: 10px;
+    border-radius: 0%;
+  }
+  20% {
+    transform: translate(0, 0);
+    width: 500px;
+    height: 3px;
+  }
+  25% {
+    width: 10px;
+    height: 10px;
+    transform: translateX(500px);
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+    transform: translateX(500px);
+  }
 }
