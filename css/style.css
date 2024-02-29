@@ -4,44 +4,131 @@
   box-sizing: border-box;
 }
 
-.main {
-  background-color: #34dae9;
-  width: 800px;
-  height: 800px;
+html {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  /* padding: 22px; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
   margin: 0 auto;
-  margin-top: 22px;
+  padding: 22px;
 }
 
 .header {
-  background: brown;
-  height: 29px;
+  background-color: rgb(162, 164, 162);
 }
 
-.red {
-  background-color: red;
-  width: 800px;
-  height: 433px;
-  margin: 33px auto;
-}
-.grey {
-  width: 200px;
-  height: 200px;
-  /* background-color: grey; */
-  border: 9px dotted;
-  position: absolute;
-  top: 22px;
-  right: -52px;
-}
-.re {
-  position: relative;
+.header__nav {
+  background-color: black;
 }
 
-.green {
-  width: 300px;
-  height: 300px;
-  background-color: green;
-  position: absolute;
-  top: 126px;
-  left: 224px;
-  z-index: 2;
+.ul__flex {
+  display: flex;
+  padding: 5px 0 5px 0;
+}
+
+.ul__flex li {
+  margin: 13px;
+}
+
+.ul__flex a {
+  color: rgb(215, 208, 208);
+}
+
+.title__header {
+  padding: 35px 0 35px 35px;
+  color: white;
+}
+
+.sec1-title {
+  font-size: 25px;
+}
+h2,
+h3,
+p {
+  margin-bottom: 13px;
+}
+
+img {
+  max-width: 50%;
+  float: left;
+  margin: 11px 11px 11px 0;
+}
+
+.cover {
+  background-color: #fff692;
+}
+
+.flex-sections {
+  display: flex;
+}
+
+.sec1 {
+  padding: 53px;
+  padding-left: 0;
+}
+
+.sec2 {
+  background-color: #bdd414;
+  padding: 33px;
+}
+
+.list1 {
+  margin-bottom: 44px;
+}
+
+@media screen and (max-width: 900px) {
+  .ul__flex {
+    flex-wrap: wrap;
+  }
+  .flex-sections {
+    display: block;
+    width: 100%;
+  }
+  .right {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 1.3rem;
+  }
+  img {
+    min-width: 80%;
+    margin: 53px auto;
+  }
+  .left {
+    margin: 0 auto;
+  }
+  .sec1 {
+    padding: 0;
+  }
+  .right {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .right {
+    flex-wrap: wrap;
+    gap: 11px;
+  }
+  .sec1-title,
+  p {
+    font-size: 37px;
+  }
 }
