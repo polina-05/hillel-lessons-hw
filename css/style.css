@@ -22,6 +22,7 @@ html {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  color: #9074c5;
 }
 
 .py-rem {
@@ -45,16 +46,3 @@ img {
   margin-right: auto;
 }
 
-.one {
-  height: 200px;
-  width: 200px;
-  background-color: #bb1818;
-
-  margin: 15px;
-}
-
-@media screen and (max-width: 600px) {
-  .one {
-    background-color: #1d1faf;
-  }
-}
